@@ -1,0 +1,1056 @@
+{
+  "quiz": {
+    "id": 20129,
+    "title": "Ruby Fundamentals Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/20129",
+    "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/20129?force_user=1&persist_headless=1",
+    "description": "<div id=\"docs-editor-container\" dir=\"ltr\">\n<div id=\"docs-editor\" class=\" companion-enabled\">\n<div role=\"navigation\" aria-label=\"Sheet tab bar\"><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></div>\n<div role=\"navigation\" aria-label=\"Sheet tab bar\"><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></div>\n</div>\n</div>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": false,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 18,
+    "points_possible": 18.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_20129"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": "until_after_last_attempt",
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/20129/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/20129/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/20129/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3299/quizzes/20129/submission_versions",
+    "assignment_id": 133555,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6359,
+    "show_correct_answers_last_attempt": false,
+    "version_number": 1,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 20129,
+      "id": 130604,
+      "quiz_group_id": null,
+      "assessment_question_id": 135345,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Let's convert this code using a ternary operator: </span></p>\n<pre><span class=\"pl-k\">if</span> <span class=\"pl-en\">condition_a</span>\n  <span class=\"pl-en\">something</span>\n<span class=\"pl-k\">else</span>\n  <span class=\"pl-en\">something_else</span>\n<span class=\"pl-k\">end</span></pre>\n<p><span>Which of the following is the correct way to do that?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 553,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">condition_a</span> ? <span class=\"pl-en\">something</span> : <span class=\"pl-en\">something_else</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 3560,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">condition_a</span> ? <span class=\"pl-en\">something</span> : <span class=\"pl-en\">condition_b</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 9223,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">condition_a</span> ? <span class=\"pl-en\">something</span> : <span class=\"pl-kos\">(</span><span class=\"pl-en\">conditional_b</span> ?s<span class=\"pl-en\">omething_else</span> : <span class=\"pl-en\">something_even_more_different</span><span class=\"pl-kos\">)</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 173,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">condition_a</span> ? <span class=\"pl-en\">something_else</span> : <span class=\"pl-en\">something</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 3650,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130605,
+      "quiz_group_id": null,
+      "assessment_question_id": 135346,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>When is it a good idea to use an&nbsp;</span><code>if</code><span>&nbsp;conditional over a ternary?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "2885",
+          "text": "When the if statement is complex with multiple elseif conditions",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "7732",
+          "text": "When it would require a nested ternary statement",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "8788",
+          "text": "When the ternary statement takes up more than one line",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "2152",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130606,
+      "quiz_group_id": null,
+      "assessment_question_id": 135347,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>If you are unsure whether to use the ternary operator, or the if statement, which should you use?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 320,
+          "text": "",
+          "html": "<code>if</code><span>&nbsp;statement</span>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 9678,
+          "text": "ternary statement",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 7528,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130607,
+      "quiz_group_id": null,
+      "assessment_question_id": 135350,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>The method&nbsp;</span><code>vowels_with_case</code><span>&nbsp;takes in a letter as an argument and uses a&nbsp;</span><code>case</code><span>&nbsp;statement to determine if that letter is a vowel.</span></p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">vowels_with_case</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">letter</span><span class=\"pl-kos\">)</span>\n  <span class=\"pl-k\">case</span> <span class=\"pl-s1\">letter</span>\n  &lt; <span class=\"pl-en\">fill</span> <span class=\"pl-en\">me</span> <span class=\"pl-en\">in!</span> &gt; <span class=\"pl-s\">\"a\"</span>\n    <span class=\"pl-c1\">true</span>\n  &lt; <span class=\"pl-en\">fill</span> <span class=\"pl-en\">me</span> <span class=\"pl-en\">in!</span> &gt; <span class=\"pl-s\">\"e\"</span>\n    <span class=\"pl-c1\">true</span>\n  &lt; <span class=\"pl-en\">fill</span> <span class=\"pl-en\">me</span> <span class=\"pl-en\">in!</span> &gt; <span class=\"pl-s\">\"i\"</span>\n    <span class=\"pl-c1\">true</span>\n  &lt; <span class=\"pl-en\">fill</span> <span class=\"pl-en\">me</span> <span class=\"pl-en\">in!</span> &gt; <span class=\"pl-s\">\"o\"</span>\n    <span class=\"pl-c1\">true</span>\n  &lt; <span class=\"pl-en\">fill</span> <span class=\"pl-en\">me</span> <span class=\"pl-en\">in!</span> &gt; <span class=\"pl-s\">\"u\"</span>\n    <span class=\"pl-c1\">true</span>\n  <span class=\"pl-k\">else</span>\n    <span class=\"pl-c1\">false</span>\n  <span class=\"pl-k\">end</span>\n<span class=\"pl-k\">end</span></pre>\n<p>Which keyword correctly replaces<span>&nbsp;</span><code>&lt; fill me in! &gt;<span>&nbsp;</span></code>?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 902,
+          "text": "",
+          "html": "<pre>if</pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 3435,
+          "text": "",
+          "html": "<pre>elsif</pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 1504,
+          "text": "",
+          "html": "<pre>when</pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 9228,
+          "text": "",
+          "html": "<pre>while</pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 449,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130608,
+      "quiz_group_id": null,
+      "assessment_question_id": 135516,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Which of the following&nbsp;</span><code>if</code><span>&nbsp;statements is a good candidate for using a ternary operator instead?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 7833,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">if</span> <span class=\"pl-en\">condition_a</span>\n  <span class=\"pl-en\">something</span>\n<span class=\"pl-k\">else</span>\n  <span class=\"pl-en\">something_else</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 9643,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">if</span> <span class=\"pl-en\">condition_a</span>\n  <span class=\"pl-en\">something</span>\n<span class=\"pl-k\">elsif</span> <span class=\"pl-en\">condition_b</span>\n  <span class=\"pl-en\">something_else</span>\n<span class=\"pl-k\">else</span>\n  <span class=\"pl-en\">something_even_more_different</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 1462,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130609,
+      "quiz_group_id": null,
+      "assessment_question_id": 135517,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>What will this code print out:</span></p>\n<pre><span class=\"pl-s1\">name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"Steven\"</span>\n<span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"Hi, <span class=\"pl-s1\"><span class=\"pl-kos\">#{</span>name<span class=\"pl-kos\">}</span></span>\"</span> <span class=\"pl-k\">if</span> <span class=\"pl-s1\">name</span> == <span class=\"pl-s\">\"Steven\"</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 7917,
+          "text": "",
+          "html": "<pre><span>\"Hi, Steven\"</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 6656,
+          "text": "",
+          "html": "<pre><span>\"Hi, #{name}\"</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 6337,
+          "text": "Nothing",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 2163,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130610,
+      "quiz_group_id": null,
+      "assessment_question_id": 135518,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>What will this code print out:</span></p>\n<pre><span class=\"pl-s1\">name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"Steven\"</span>\n<span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"Hi, <span class=\"pl-s1\"><span class=\"pl-kos\">#{</span>name<span class=\"pl-kos\">}</span></span>\"</span> <span class=\"pl-k\">unless</span> <span class=\"pl-s1\">name</span> == <span class=\"pl-s\">\"Steven\"</span></pre>\n<p>&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 7406,
+          "text": "Nothing",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 4411,
+          "text": "",
+          "html": "<pre><span>\"Hi, #{name}\"</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 7898,
+          "text": "",
+          "html": "<pre><span>\"Hi, Steven\"</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 78,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130611,
+      "quiz_group_id": null,
+      "assessment_question_id": 135519,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Which of the following is a case statement?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 336,
+          "text": "",
+          "html": "<pre><span class=\"pl-s1\">name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"Steven\"</span>\n\n<span class=\"pl-k\">if</span> <span class=\"pl-s1\">name</span> == <span class=\"pl-s\">\"Steven\"</span>\n  <span class=\"pl-s\">\"Hi, <span class=\"pl-s1\"><span class=\"pl-kos\">#{</span>name<span class=\"pl-kos\">}</span></span>\"</span>\n<span class=\"pl-k\">else</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"Hi, stranger!\"</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 293,
+          "text": "",
+          "html": "<pre><span class=\"pl-s1\">name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"Steven\"</span>\n\n<span class=\"pl-k\">case</span> <span class=\"pl-s1\">name</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-s\">\"Steven\"</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"Hi, <span class=\"pl-s1\"><span class=\"pl-kos\">#{</span>name<span class=\"pl-kos\">}</span></span>\"</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-s\">\"Amanda\"</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"Welcome back, <span class=\"pl-s1\"><span class=\"pl-kos\">#{</span>name<span class=\"pl-kos\">}</span></span>\"</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-s\">\"Admin\"</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"You have all the power!\"</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 7807,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">case</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"Am I a case statement?\"</span>\n<span class=\"pl-k\">end</span>\n\n<span class=\"pl-k\">case</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 7676,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130612,
+      "quiz_group_id": null,
+      "assessment_question_id": 135520,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Of the following two examples, which example uses the case statement the best?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 9830,
+          "text": "",
+          "html": "<pre><span class=\"pl-s1\">name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"Steven\"</span>\n\n<span class=\"pl-k\">case</span> <span class=\"pl-s1\">name</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-s\">\"Steven\"</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"Hi, <span class=\"pl-s1\"><span class=\"pl-kos\">#{</span>name<span class=\"pl-kos\">}</span></span>\"</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-s\">\"Amanda\"</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"Welcome back, <span class=\"pl-s1\"><span class=\"pl-kos\">#{</span>name<span class=\"pl-kos\">}</span></span>\"</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-s\">\"Admin\"</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"You have all the power!\"</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 1722,
+          "text": "",
+          "html": "<pre><span class=\"pl-s1\">grade</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">95</span>\n\n<span class=\"pl-k\">case</span> <span class=\"pl-s1\">grade</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-c1\">90</span>..<span class=\"pl-c1\">100</span>\n  <span class=\"pl-s\">\"A\"</span> \n<span class=\"pl-k\">when</span> <span class=\"pl-c1\">80</span>..<span class=\"pl-c1\">90</span>\n  <span class=\"pl-s\">\"B\"</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-c1\">70</span>..<span class=\"pl-c1\">80</span>\n  <span class=\"pl-s\">\"C\"</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-c1\">60</span>..<span class=\"pl-c1\">70</span>\n  <span class=\"pl-s\">\"D\"</span>\n<span class=\"pl-k\">when</span> <span class=\"pl-c1\">0</span>..<span class=\"pl-c1\">60</span>\n  <span class=\"pl-s\">\"F\"</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 6857,
+          "text": "Both are good as case statements",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 2868,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130613,
+      "quiz_group_id": null,
+      "assessment_question_id": 135352,
+      "position": null,
+      "question_name": "Fundamentals: Looping",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Here is a repeated list of&nbsp;</span><code>puts</code><span>&nbsp;statements.</span></p>\n<pre><span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"hi\"</span>\n<span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"hi\"</span>\n<span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"hi\"</span>\n<span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"hi\"</span>\n<span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"hi\"</span></pre>\n<p><span>How would you repeat this with <code>loop</code>/<code>break</code> 100 times?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 4174,
+          "text": "",
+          "html": "<pre><span class=\"pl-s1\">counter</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">0</span>\n\n<span class=\"pl-en\">loop</span> <span class=\"pl-k\">do</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"hi\"</span>\n  <span class=\"pl-s1\">counter </span>+= <span class=\"pl-c1\">1</span>\n  <span class=\"pl-k\">break</span> <span class=\"pl-k\">if</span> <span class=\"pl-s1\">counter </span>== <span class=\"pl-c1\">100</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 2160,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">loop</span> <span class=\"pl-k\">do</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"hi\"</span>\n  <span class=\"pl-k\">break</span> <span class=\"pl-k\">if</span> <span class=\"pl-en\">counter </span>== <span class=\"pl-c1\">100</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 6384,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">loop</span> <span class=\"pl-k\">do</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"hi\"</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 6792,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130614,
+      "quiz_group_id": null,
+      "assessment_question_id": 135353,
+      "position": null,
+      "question_name": "Fundamentals: Looping",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>What will this loop do?</span></p>\n<pre><span class=\"pl-s1\">x </span><span class=\"pl-c1\">= </span><span class=\"pl-c1\">0</span>\n<span class=\"pl-k\">while</span> <span class=\"pl-s1\">x</span> &lt; <span class=\"pl-c1\">10</span> <span class=\"pl-k\">do</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"so many loops\"</span>\n<span class=\"pl-k\">end</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 2809,
+          "text": "",
+          "html": "puts \"so many loops\" infinitely",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 6564,
+          "text": "puts \"so many loops\" one time",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 1944,
+          "text": "puts \"so many loops\" 10 times",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 1320,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130615,
+      "quiz_group_id": null,
+      "assessment_question_id": 135354,
+      "position": null,
+      "question_name": "Fundamentals: Looping",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>True or False:&nbsp;</span><code>puts \"Hi\"</code><span>&nbsp;will never run.</span></p>\n<pre><span class=\"pl-c1\">10</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">times</span> <span class=\"pl-k\">do</span>\n  <span class=\"pl-k\">break</span>\n  <span class=\"pl-en\">puts</span> <span class=\"pl-s\">\"Hi\"</span>\n<span class=\"pl-k\">end</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "True",
+          "weight": 100,
+          "id": 7320
+        },
+        {
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "text": "False",
+          "weight": 0,
+          "id": 8583
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130616,
+      "quiz_group_id": null,
+      "assessment_question_id": 135349,
+      "position": null,
+      "question_name": "Fundamentals: Operators",
+      "question_type": "short_answer_question",
+      "question_text": "<p><span>What would the following statement return?</span></p>\n<pre><span class=\"pl-s1\">letter</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"b\"</span>\n\n<span class=\"pl-k\">if</span> <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"a\"</span> || <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"e\"</span> || <span class=\"pl-s1\">letter</span> ==  <span class=\"pl-s\">\"i\"</span> || <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"o\"</span> || <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"u\"</span>\n  <span class=\"pl-s\">\"vowel\"</span>\n<span class=\"pl-k\">else</span>\n  <span class=\"pl-s\">\"not a vowel\"</span>\n<span class=\"pl-k\">end</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "1801",
+          "text": "\"not a vowel\"",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 7325,
+          "text": "not a vowel",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130617,
+      "quiz_group_id": null,
+      "assessment_question_id": 135351,
+      "position": null,
+      "question_name": "Fundamentals: Operators",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Which of the following methods would correctly return&nbsp;</span><code>true</code><span>&nbsp;when given the letter&nbsp;</span><code>\"o\"</code><span>&nbsp;as an argument?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 131,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">vowels_with_if_single_line</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">letter</span><span class=\"pl-kos\">)</span>\n  <span class=\"pl-c1\">true</span> <span class=\"pl-k\">if</span> <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"a\"</span> || <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"e\"</span> || <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"i\"</span> || <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"o\"</span> || <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"u\"</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 9840,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">vowels_with_if_single_line</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">letter</span><span class=\"pl-kos\">)</span>\n  <span class=\"pl-c1\">true</span> <span class=\"pl-k\">if</span> <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"a\"</span> &amp;&amp; <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"e\"</span> &amp;&amp; <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"i\"</span> &amp;&amp; <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"o\"</span> &amp;&amp; <span class=\"pl-s1\">letter</span> == <span class=\"pl-s\">\"u\"</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 6852,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130618,
+      "quiz_group_id": null,
+      "assessment_question_id": 135427,
+      "position": null,
+      "question_name": "Fundamentals: Operators",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>What value(s) for&nbsp;</span><code>?</code><span> will make this method</span><span>&nbsp;return&nbsp;</span><code>true</code><span>?</span></p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">using_truthiness</span>\n  <span class=\"pl-c1\">7</span> &gt; <span class=\"pl-c1\">8</span> || ?\n<span class=\"pl-en\">end</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "4865",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<pre>true</pre>"
+        },
+        {
+          "id": "6822",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<pre>false</pre>"
+        },
+        {
+          "id": "2255",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130619,
+      "quiz_group_id": null,
+      "assessment_question_id": 135428,
+      "position": null,
+      "question_name": "Fundamentals: Operators",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>Take a look at the code below. We have defined a method,&nbsp;</span><code>returning_true</code><span>&nbsp;that uses a comparison operator, the&nbsp;</span><code>&lt;</code><span>&nbsp;(less than) to compare the number 14 to... nothing. What value(s) for&nbsp;</span><code>?</code><span>&nbsp;will make&nbsp;</span><code>returning_true</code><span>&nbsp;return&nbsp;</span><code>true</code><span>?</span></p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">returning_true</span>\n  <span class=\"pl-c1\">14</span> &lt; ?\n<span class=\"pl-en\">end</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "5843",
+          "text": "15",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "5497",
+          "text": "14",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "5351",
+          "text": "1",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "2081",
+          "text": "17",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "9567",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130620,
+      "quiz_group_id": null,
+      "assessment_question_id": 135429,
+      "position": null,
+      "question_name": "Fundamentals: Operators",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>Take a look at the method&nbsp;</span><code>using_truthiness</code><span>&nbsp;below. What value(s) for&nbsp;</span><code>?</code><span>&nbsp;will make&nbsp;</span><code>using_truthiness</code><span>&nbsp;return&nbsp;</span><code>false</code><span>? Select <strong>all</strong> answers that apply.</span></p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">using_truthiness</span>\n  <span class=\"pl-c1\">7</span> &gt; <span class=\"pl-c1\">8</span> || ?\n<span class=\"pl-en\">end</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "7192",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<pre>8 &gt; 9</pre>"
+        },
+        {
+          "id": "1703",
+          "text": "true",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "6533",
+          "text": "false",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "6435",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 20129,
+      "id": 130621,
+      "quiz_group_id": null,
+      "assessment_question_id": 135430,
+      "position": null,
+      "question_name": "Fundamentals: Operators",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>Below, we have a method,&nbsp;</span><code>returning_false</code><span>&nbsp;that uses both comparison and boolean operators. What value(s) for&nbsp;</span><code>?</code><span>&nbsp;will make&nbsp;</span><code>returning_false</code><span>&nbsp;return&nbsp;</span><code>false</code><span>?<br></span></p>\n<div class=\"highlight highlight-source-ruby\">\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">returning_false</span>\n  <span class=\"pl-c1\">7</span> &gt; <span class=\"pl-c1\">4</span> &amp;&amp; <span class=\"pl-c1\">100</span> &lt; ?\n<span class=\"pl-en\">end</span></pre>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "9785",
+          "text": "100",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "1275",
+          "text": "101",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "9782",
+          "text": "102",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "8561",
+          "text": "103",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "4426",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
