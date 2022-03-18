@@ -4,7 +4,7 @@
     "title": "Ruby Fundamentals Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/20129",
     "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/20129?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-ruby-fundamentals\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-ruby-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-ruby-fundamentals\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-ruby-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 9648,
     "show_correct_answers_last_attempt": true,
-    "version_number": 2,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -147,7 +147,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6110,
+          "id": "6110",
           "text": "",
           "comments": "",
           "comments_html": "<p>The ternary operator can be more challenging to read when there are multiple\nbranching conditions.</p>",
@@ -155,7 +155,7 @@
           "html": "<p>When the <code>if</code> statement is complex with multiple <code>elseif</code> conditions</p>"
         },
         {
-          "id": 7592,
+          "id": "7592",
           "text": "",
           "comments": "",
           "comments_html": "<p>The ternary operator can be more challenging to read when it requires nesting.</p>",
@@ -163,15 +163,15 @@
           "html": "<p>When the conditional logic would require nested ternary operators</p>"
         },
         {
-          "id": 451,
+          "id": 5992,
           "text": "",
           "comments": "",
           "comments_html": "<p>If using a ternary operator makes your code harder to read, it's better to use\na regular <code>if/else</code> statement.</p>",
           "weight": 100.0,
-          "html": "<p>When the ternary operator would up more than one line</p>"
+          "html": "<p>When the ternary operator would take up more than one line</p>"
         },
         {
-          "id": 4466,
+          "id": "4466",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -497,14 +497,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/control-flow-operators\">Control Flow: Operators</a></li><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133601\">Control Flow: Conditional Statements</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4230,
+          "id": "4230",
           "text": "\"not a vowel\"",
           "comments": "",
           "comments_html": "<p>Right! The <code>||</code> (OR) operators for the <code>if</code> condition will all evaluate to <code>false</code>.</p>",
           "weight": 100
         },
         {
-          "id": 2259,
+          "id": "2259",
           "text": "not a vowel",
           "comments": "",
           "comments_html": "<p>Right! The <code>||</code> (OR) operators for the <code>if</code> condition will all evaluate to <code>false</code>.</p>",
@@ -585,7 +585,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4003,
+          "id": "4003",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! With the <code>||</code> (OR) operator, either the left side or the right side\nmust be truthy in order for the operator to return true.</p>",
@@ -593,7 +593,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"kp\">true</span>\n</code></pre></div>"
         },
         {
-          "id": 232,
+          "id": "232",
           "text": "",
           "comments": "",
           "comments_html": "<p>With the <code>||</code> (OR) operator, either the left side or the right side must be\ntruthy in order for the operator to return true. In this case, neither <code>7 &gt; 8</code>\nor <code>false</code> are truthy.</p>",
@@ -601,7 +601,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"kp\">false</span>\n</code></pre></div>"
         },
         {
-          "id": 1847,
+          "id": "1847",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -634,7 +634,7 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 2124,
+          "id": "2124",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! For the <code>&amp;&amp;</code> operator to return false, both sides of the operator must\nbe false.</p>",
@@ -642,7 +642,7 @@
           "html": "<p>100</p>"
         },
         {
-          "id": 8589,
+          "id": "8589",
           "text": "",
           "comments": "",
           "comments_html": "<p>For the <code>&amp;&amp;</code> operator to return false, both sides of the operator must\nbe false. <code>100 &lt; 101</code> evaluates to <code>true</code>, so this would return <code>true</code>.</p>",
@@ -650,7 +650,7 @@
           "html": "<p>101</p>"
         },
         {
-          "id": 5403,
+          "id": "5403",
           "text": "",
           "comments": "",
           "comments_html": "<p>For the <code>&amp;&amp;</code> operator to return false, both sides of the operator must\nbe false. <code>100 &lt; 102</code> evaluates to <code>true</code>, so this would return <code>true</code>.</p>",
@@ -658,7 +658,7 @@
           "html": "<p>102</p>"
         },
         {
-          "id": 8233,
+          "id": "8233",
           "text": "",
           "comments": "",
           "comments_html": "<p>For the <code>&amp;&amp;</code> operator to return false, both sides of the operator must\nbe false. <code>100 &lt; 103</code> evaluates to <code>true</code>, so this would return <code>true</code>.</p>",
@@ -666,7 +666,7 @@
           "html": "<p>103</p>"
         },
         {
-          "id": 4492,
+          "id": "4492",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
